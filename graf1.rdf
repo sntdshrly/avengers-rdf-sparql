@@ -1,0 +1,42 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ex="http://example.com/"
+         xml:base="http://example.com/">
+
+  <!-- Individuals -->
+  <rdf:Description rdf:about="http://example.com/Hawkeye">
+    <ex:BECOMES_AVENGER rdf:resource="http://example.com/Avengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/TheHulk">
+    <ex:BECOMES_AVENGER rdf:resource="http://example.com/Avengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/IronMan">
+    <ex:BECOMES_AVENGER rdf:resource="http://example.com/Avengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/NatashaRomanoff">
+    <ex:BECOMES_AVENGER rdf:resource="http://example.com/Avengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/CaptainAmerica">
+    <ex:BECOMES_AVENGER rdf:resource="http://example.com/Avengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Thor">
+    <ex:BECOMES_AVENGER rdf:resource="http://example.com/Avengers"/>
+    <ex:HAS_BROTHER rdf:resource="http://example.com/Loki"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Loki">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Avengers">
+    <ex:IN_MOVIE rdf:resource="http://example.com/TheAvengers"/>
+    <ex:TO_FIGHT rdf:resource="http://example.com/Loki"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/TheAvengers">
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,116 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ex="http://example.com/"
+         xml:base="http://example.com/">
+
+  <!-- Individuals -->
+  <rdf:Description rdf:about="http://example.com/AvengersPlus">
+    <ex:IN_MOVIE rdf:resource="http://example.com/AvengersInfinityWar"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Wong">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/DoctorStrange">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/TheHulk">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Ant-Man">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/NatashaRomanoff">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Hawkeye">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Heimdall">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Thor">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/WarMachine">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/IronMan">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Vision">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/WandaMaximoff">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/WhiteWolf">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/BlackPanther">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/CaptainAmerica">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Falcon">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Spider-Man">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Rocket">
+    <ex:PART_OF rdf:resource="http://example.com/GuardiansOfTheGalaxy"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Groot">
+    <ex:PART_OF rdf:resource="http://example.com/GuardiansOfTheGalaxy"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Drax">
+    <ex:PART_OF rdf:resource="http://example.com/GuardiansOfTheGalaxy"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Star-Lord">
+    <ex:PART_OF rdf:resource="http://example.com/GuardiansOfTheGalaxy"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Gamora">
+    <ex:PART_OF rdf:resource="http://example.com/GuardiansOfTheGalaxy"/>
+    <ex:HAS_SISTER rdf:resource="http://example.com/Nebula"/>
+    <ex:HAS_FATHER rdf:resource="http://example.com/Thanos"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/GuardiansOfTheGalaxy">
+    <ex:PART_OF rdf:resource="http://example.com/AvengersPlus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Nebula">
+    <ex:HAS_FATHER rdf:resource="http://example.com/Thanos"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Thanos">
+  </rdf:Description>
+
+  <!-- Relationships -->
+  <rdf:Description rdf:about="http://example.com/AvengersPlus">
+    <ex:TO_FIGHT rdf:resource="http://example.com/Thanos"/>
+  </rdf:Description>
+
+</rdf:RDF>

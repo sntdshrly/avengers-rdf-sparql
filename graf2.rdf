@@ -1,0 +1,58 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ex="http://example.com/"
+         xml:base="http://example.com/">
+
+  <!-- Individuals -->
+  <rdf:Description rdf:about="http://example.com/Hawkeye">
+    <ex:IS_AVENGER rdf:resource="http://example.com/AddAvengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/TheHulk">
+    <ex:IS_AVENGER rdf:resource="http://example.com/AddAvengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/IronMan">
+    <ex:IS_AVENGER rdf:resource="http://example.com/AddAvengers"/>
+    <ex:CREATED rdf:resource="http://example.com/Ultron"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/NatashaRomanoff">
+    <ex:IS_AVENGER rdf:resource="http://example.com/AddAvengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/CaptainAmerica">
+    <ex:IS_AVENGER rdf:resource="http://example.com/AddAvengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Thor">
+    <ex:IS_AVENGER rdf:resource="http://example.com/AddAvengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Wanda">
+    <ex:BECOMES_AVENGER rdf:resource="http://example.com/AddAvengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/WarMachine">
+    <ex:BECOMES_AVENGER rdf:resource="http://example.com/AddAvengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Falcon">
+    <ex:BECOMES_AVENGER rdf:resource="http://example.com/AddAvengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Vision">
+    <ex:BECOMES_AVENGER rdf:resource="http://example.com/AddAvengers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/AddAvengers">
+    <ex:IN_MOVIE rdf:resource="http://example.com/AvengersAgeOfUltron"/>
+    <ex:TO_FIGHT rdf:resource="http://example.com/Ultron"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Ultron">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/AvengersAgeOfUltron">
+  </rdf:Description>
+
+</rdf:RDF>

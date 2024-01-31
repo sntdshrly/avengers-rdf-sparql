@@ -1,0 +1,70 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ex="http://example.com/"
+         xml:base="http://example.com/">
+
+  <!-- Individuals -->
+  <rdf:Description rdf:about="http://example.com/HydraEnergyWeapons">
+    <ex:IN_MOVIE rdf:resource="http://example.com/CaptainAmericaTheFirstAvengers"/>
+    <ex:ABOUT rdf:resource="http://example.com/Tesseract"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/ChitauriInvasion">
+    <ex:IN_MOVIE rdf:resource="http://example.com/TheAvengers"/>
+    <ex:ABOUT rdf:resource="http://example.com/Tesseract"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/LokiMindControl">
+    <ex:IN_MOVIE rdf:resource="http://example.com/TheAvengers"/>
+    <ex:ABOUT rdf:resource="http://example.com/MindStone"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/JanePortalInfection">
+    <ex:IN_MOVIE rdf:resource="http://example.com/ThorInTheDarkWorld"/>
+    <ex:ABOUT rdf:resource="http://example.com/Aether"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/HydraScarletWitchQuicksilver">
+    <ex:IN_MOVIE rdf:resource="http://example.com/CaptainAmericaTheWinterSoldier"/>
+    <ex:ABOUT rdf:resource="http://example.com/MindStone"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/RonanPowerStone">
+    <ex:IN_MOVIE rdf:resource="http://example.com/GuardiansOfTheGalaxy"/>
+    <ex:ABOUT rdf:resource="http://example.com/Orb"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/JarvisVision">
+    <ex:IN_MOVIE rdf:resource="http://example.com/AvengersAgeOfUltron"/>
+    <ex:ABOUT rdf:resource="http://example.com/MindStone"/>
+    <ex:CREATE_VISION rdf:resource="http://example.com/Vision"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/ThanosFineIllDoItMyself">
+    <ex:IN_MOVIE rdf:resource="http://example.com/AvengersAgeOfUltron"/>
+    <ex:ABOUT rdf:resource="http://example.com/MindStone"/>
+    <ex:HAS_CHARACTER rdf:resource="http://example.com/Thanos"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/DoctorStrangeTimeManipulation">
+    <ex:IN_MOVIE rdf:resource="http://example.com/DoctorStrange"/>
+    <ex:ABOUT rdf:resource="http://example.com/EyeOfAgamotto"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/LokiTesseractSuspected">
+    <ex:IN_MOVIE rdf:resource="http://example.com/ThorRagnarok"/>
+    <ex:ABOUT rdf:resource="http://example.com/Tesseract"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/SoulStone">
+  </rdf:Description>
+
+  <!-- Relationships -->
+  <rdf:Description rdf:about="http://example.com/Jarvis">
+    <ex:PLUS_THE_STAFF rdf:resource="http://example.com/MindStone"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/Vision">
+    <ex:THANOS_SAYS_FINE rdf:resource="http://example.com/ThanosFineIllDoItMyself"/>
+  </rdf:Description>
+
+</rdf:RDF>

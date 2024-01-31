@@ -1,0 +1,7 @@
+PREFIX ex: <http://example.com/>
+
+SELECT ?movie
+WHERE {
+  ?weapon ex:ABOUT ex:Tesseract .
+  ?weapon ex:IN_MOVIE ?movie .
+}

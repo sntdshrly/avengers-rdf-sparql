@@ -1,0 +1,6 @@
+PREFIX ex: <http://example.com/>
+
+SELECT ?individual ?brother
+WHERE {
+  ?individual ex:HAS_BROTHER ?brother .
+}

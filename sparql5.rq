@@ -1,0 +1,6 @@
+PREFIX ex: <http://example.com/>
+
+SELECT ?movie
+WHERE {
+  ex:ThanosFineIllDoItMyself ex:IN_MOVIE ?movie .
+}

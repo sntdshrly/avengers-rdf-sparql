@@ -1,0 +1,6 @@
+PREFIX ex: <http://example.com/>
+
+SELECT ?newAvenger
+WHERE {
+  ?newAvenger ex:BECOMES_AVENGER ex:AddAvengers .
+}

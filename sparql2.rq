@@ -1,0 +1,7 @@
+PREFIX ex: <http://example.com/>
+
+SELECT ?fighter ?name
+WHERE {
+  ?fighter ex:TO_FIGHT ex:Loki .
+  OPTIONAL { ?fighter ex:name ?name . }
+}

@@ -1,0 +1,4 @@
+PREFIX ex: <http://example.com/>
+ASK {
+  ?character ex:TO_FIGHT <http://example.com/Ultron> .
+}

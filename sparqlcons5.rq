@@ -1,0 +1,10 @@
+PREFIX ex: <http://example.com/>
+
+CONSTRUCT {
+  ?stone ex:isFeaturedIn ?movie .
+}
+WHERE {
+  ?event ex:ABOUT ?stone ;
+         ex:IN_MOVIE ?movie .
+  FILTER EXISTS { ?event ex:ABOUT ?stone . }
+}

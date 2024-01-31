@@ -1,0 +1,5 @@
+PREFIX ex: <http://example.com/>
+ASK {
+  <http://example.com/ThanosFineIllDoItMyself> ex:IN_MOVIE <http://example.com/AvengersAgeOfUltron> ;
+                                               ex:HAS_CHARACTER <http://example.com/Thanos> .
+}

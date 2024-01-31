@@ -1,0 +1,4 @@
+PREFIX ex: <http://example.com/>
+ASK {
+  <http://example.com/IronMan> ex:IS_AVENGER <http://example.com/AddAvengers> .
+}

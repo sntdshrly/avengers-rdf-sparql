@@ -1,0 +1,8 @@
+PREFIX ex: <http://example.com/>
+
+CONSTRUCT {
+  ex:Thanos ex:decides ?event .
+}
+WHERE {
+  ?event ex:HAS_CHARACTER ex:Thanos .
+}

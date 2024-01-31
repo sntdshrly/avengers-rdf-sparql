@@ -1,0 +1,9 @@
+PREFIX ex: <http://example.com/>
+
+CONSTRUCT {
+  ?movie ex:featuresInfinityStone ?stone .
+}
+WHERE {
+  ?event ex:IN_MOVIE ?movie ;
+         ex:ABOUT ?stone .
+}

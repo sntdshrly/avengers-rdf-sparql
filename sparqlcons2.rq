@@ -1,0 +1,9 @@
+PREFIX ex: <http://example.com/>
+
+CONSTRUCT {
+  ?character ex:appearsIn ?movie .
+}
+WHERE {
+  ?event ex:IN_MOVIE ?movie .
+  ?event ex:HAS_CHARACTER ?character .
+}

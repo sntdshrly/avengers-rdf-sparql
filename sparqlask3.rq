@@ -1,0 +1,5 @@
+PREFIX ex: <http://example.com/>
+ASK {
+  ?event ex:IN_MOVIE <http://example.com/TheAvengers> ;
+        ex:ABOUT <http://example.com/Tesseract> .
+}
